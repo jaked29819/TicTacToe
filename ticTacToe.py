@@ -8,6 +8,7 @@ class Game:
     myPlayer = myBrain.Player
     realPlayer = PLAYERS[0]
 
+    myBoard.printBoard()
     input("You are player x!\nPress Enter to continue.")
 
     while True:
